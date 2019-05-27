@@ -1,0 +1,16 @@
+name: DIOSSlots
+main: peptiGamer97\DIOSSlots
+version: 0.0.5
+api: [3.8.2]
+load: STARTUP
+author: PeptiGamer97
+description: Enable DIOS players to join full servers.
+website: https://github.com/peptiGamer/DIOSSlots
+commands:
+ dios:
+  description: "Set Permissions"
+  permission: dios.command.dios
+permissions:
+  dios.command.dios:
+    default: op
+    description: "/dios <add/remove/list>"
